@@ -1,0 +1,27 @@
+
+maven:
+     -Maven is one of the tool from devops which is used to build the code.
+     -There are three repositories in maven:
+                a) central repository
+		b) remote repository
+		c) local repository
+DEPENDENCIES:
+	-while executing or building the code, maven searches for dependencies in local repository, if they are not present in local repository then maven will automatically  download it from remote repository.
+	-dependencies are kept on pom.xml file inside <dependencies> tag.
+	
+PLUGINS:
+	-plugins are used to execute, compile and test the code with junits.
+	-they are also used to create the jar files and in project documentation.
+
+ The lifecyle of maven:
+       1)clean
+       2)compile
+       3)packages
+       4)insert
+       5)deploy
+
+ Pom.XML:
+ 	-All the information about the project is stored in pom.xml
+	-whenever we execute the code maven first looks for the pom in current directory and read the pom.xml then executes the code.
+
+    
